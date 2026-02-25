@@ -6,12 +6,12 @@ const Daniel = () => {
     const favGame:string = "League of legends"
     const favFilm:string = "Lost in translation"
     const currentJob:string = "Popeyes" 
-    
+
   return (
     <>
     <div>{name}</div>
     <div>{age}</div>
-    <div>{favGame}</div>
+    <div>{favGame} 😈</div>
     <div>{favFilm}</div>
     <div>{currentJob}</div>
 
