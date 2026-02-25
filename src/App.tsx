@@ -1,11 +1,11 @@
-import HolaMundo from './components/HolaMundo';
+import Daniel from './components/Daniel';
 import './App.css'
 
 const App = () => {
 
   return (
     <>
-      <HolaMundo />
+      <Daniel />
     </>
   )
 }
