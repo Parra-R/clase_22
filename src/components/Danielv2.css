@@ -1,0 +1,29 @@
+.card-profile{
+    background-color: #fdff6c;
+    border: 2px solid #324152;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.name{
+    color: #410000;
+    margin-bottom: 5px;
+}
+
+.profession{
+    color: #1a1a1a;
+    font-style: italic;
+}
+
+.tag-state{
+    display: inline-block;
+    background-color: #8528a7;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    margin-top: 15px;
+}

@@ -1,11 +1,11 @@
-import Perfil from './components/Perfil';
+import Danielv2 from './components/Danielv2';
 import './App.css'
 
 const App = () => {
 
   return (
     <>
-      <Perfil />
+      <Danielv2 />
     </>
   )
 }
