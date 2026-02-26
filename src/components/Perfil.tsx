@@ -1,20 +1,20 @@
 import './Perfil.css'
 
-const Perfil =()=> {
-// Todos los datos
-    const nameUser:string = "José Luis Abalos"
-    const profession:string = "Ladrón"
-    const completeModules:number = 3
-    const isActive:boolean = true
+interface PerfilProps{
+  nameUser:string;
+  profession:string;
+  completeModules:number;
+  isActive:boolean
+}
+
+const Perfil =(props: PerfilProps)=> {
 
   return (
     <div className='card-profile'>
-        <h2 className='name'>{nameUser}</h2>
-        <p className='profession'>{profession}</p>
-
-        <p>Módulos restantes para graduarse: {10 - completeModules}</p>
-
-        {isActive ? <span className='tag-state'>En línea</span> : null}
+      <h2 className='name'>{props.nameUser}</h2>
+      <p className='profession'>{props.profession}</p>
+      <p>Modulos restantes: {10 - props.completeModules}</p>
+      {props.isActive ? (<span className="tag-state">Está aktivo papi</span>) : <span className="tag-state-null">Desaktivado nen</span>}
     </div>
   )
 }
